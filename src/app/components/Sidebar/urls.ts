@@ -1,7 +1,7 @@
 export const urls = [
   {
-    url: "https://www.wired.com/story/fast-forward-toyota-robots-learning-housework/",
-    title: "Toyota's Robots are Learning Housework",
+    url: "https://www.elevationweb.org/about-us/",
+    title: "Elevation",
     seeded: false,
     loading: false,
   },
