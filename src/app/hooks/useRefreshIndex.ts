@@ -6,6 +6,7 @@ const useRefreshIndex = () => {
     const refreshIndex = async () => {
         const response = await fetch("/api/checkIndex", {
             method: "POST",
+            body: JSON.stringify({ namespaceName: "elevationweb" }), 
         });
         try {
             const stats = await response.json();
